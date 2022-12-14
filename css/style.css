@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 ol, ul {
 	list-style: none;
@@ -53,4 +55,29 @@ table {
     position:relative;
     background-image: url(/images/bgimage.png);
     background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    left: 210px;
+    top: 40px;
+}
+.navlinks{
+    text-align: right;
+}
+.navlinks ul li{
+    display: inline-block;
+    padding:18px;
+    right: 210px;
+    top: 30px;
+    position: relative;
+}
+.navlinks ul li a{
+    color: #737373;
+    text-decoration: none;
+    font-size: 16px;
 }
