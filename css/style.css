@@ -105,7 +105,7 @@ nav{
     letter-spacing: 0.2px;
     color: #252B42;
 }
-h4{
+.section-subtext{
     width: 539px;
     height: 60px;
     font-size: 18px;
@@ -202,4 +202,61 @@ h4{
     color: white;
     font-size: 12px;
     margin-top: 20px;
+}
+
+.section-two{
+    padding: 80px;
+    text-align: center;
+}
+
+.section-two h1{
+    font-size: 30px;
+}
+
+.section-subtext p{
+    width:479px;
+    height:80px;
+    font-size: 14px;
+    margin-left: 220px;
+}
+
+.card-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 0px; */
+    gap: 30px;
+    /* width: 1046px; */
+    height: 385px;
+    /* border: 2px solid; */
+    justify-content: space-between;
+}
+
+.card-one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 328px;
+    height: 385px;
+    /* border: 2px solid magenta; */
+}
+.card-head{
+    width:330px;
+    height: 390px;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    background: #D9EDFF;
+
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 328px;
+    height: 253px;
+    background: #FFFFFF;
+    border: 1px solid #A9D6FF;
+    border-radius: 11px;
+    margin-top: 130px;
 }
