@@ -247,7 +247,14 @@ nav{
     /* border: 2px solid blue; */
     border-radius: 10px;
     background: #D9EDFF;
+}
 
+.card-head i{
+    color: #FFA62B;
+    background: white;
+    border-radius: 79px;
+    padding: 30px;
+    margin: 20px;
 }
 .card-content{
     display: flex;
@@ -258,5 +265,4 @@ nav{
     background: #FFFFFF;
     border: 1px solid #A9D6FF;
     border-radius: 11px;
-    margin-top: 130px;
 }
