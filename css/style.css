@@ -177,14 +177,14 @@ nav{
     letter-spacing: 0.2px;
     color: #252B42;
 }
-.form-content input{
+input{
     background: #F9F9F9;
     border: 1px solid #BDBDBD;
     border-radius: 4px;
     height: 30px;
     
 }
-.form-content select{
+select{
     background: #F9F9F9;
     border: 1px solid #BDBDBD;
     border-radius: 4px;
@@ -291,7 +291,7 @@ position: relative;
     padding: 80px;
     height: 300px;
 }
-.head .heading{
+.heading{
     text-align: center;
     /* width:637px; */
     font-size: 40px;
@@ -371,4 +371,118 @@ position: relative;
 }
 h5{
     padding-left: 100px;
+}
+/* ------section-five--- */
+.section-five{
+    height:730px;
+    background-color:#FFFFFF;
+}
+.section-five .head{
+    padding:40px;
+}
+.section-five .card-one{
+    width: 328px;
+    height: 373px; 
+    border: 1px solid #afdfec;
+}
+
+.team-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 5px;
+    width: 232px;
+    height: 142px;
+}
+.team-content h6{
+    text-align: center;
+    font-size: 12px;
+}
+.team-content i{
+    color: #00A0C1;
+}
+/* -----section-six------ */
+.section-six{
+    height: 823px;
+    background: #FAFAFA;
+    
+}
+.sec-six-one{
+    height: 680px;
+    /* border: solid yellow; */
+    background-image: url("../images/sec-6_bg\(4\).png");
+    background-size: cover;
+}
+.section-six .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 0px;
+    height: 533px;
+    /* border: solid; */
+} 
+.section-contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 0px;
+    position: absolute;
+    width: 590px;
+    height: 416px;
+    /* border: solid darkmagenta; */
+}
+.section-contactus h6{
+    padding: 0px;
+    color: #252B42;
+}
+.contactus-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 585px;
+    height: 270px;
+    /* border: solid green; */
+}
+.form-inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    height: 70px;
+}
+.form-inputs input{
+    width: 275px;
+    height: 40px;
+}
+.form-inputs select{
+    width: 281px;
+    height: 45px;
+}
+textarea{
+    box-sizing: border-box;
+    width: 583px;
+    height: 123px;
+    background: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+}
+.section-six .form-btn{
+    margin-top: 0px;
+    padding: 20px 40px;
+}
+.subcontainer{
+    margin: auto;
+    width:75%;
+}
+.subcontainer .heading{
+    text-align: start;
+    font-size: 30px;
+}
+.subcontainer h6{
+    padding: 0px 0px;
+    width: 295px;
 }
