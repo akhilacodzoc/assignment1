@@ -181,12 +181,15 @@ input{
     background: #F9F9F9;
     border: 1px solid #BDBDBD;
     border-radius: 4px;
-    height: 30px;
-    
+    height: 30px;  
+}
+::placeholder{
+    color: #BDBDBD;
 }
 select{
     background: #F9F9F9;
     border: 1px solid #BDBDBD;
+    color: #BDBDBD;
     border-radius: 4px;
     height: 30px;
     width: 175px;
@@ -469,6 +472,8 @@ textarea{
     background: #F9F9F9;
     border: 1px solid #BDBDBD;
     border-radius: 5px;
+    color: #BDBDBD;
+
 }
 .section-six .form-btn{
     margin-top: 0px;
@@ -478,6 +483,7 @@ textarea{
     margin: auto;
     width:75%;
 }
+
 .subcontainer .heading{
     text-align: start;
     font-size: 30px;
@@ -485,4 +491,14 @@ textarea{
 .subcontainer h6{
     padding: 0px 0px;
     width: 295px;
+}
+.sub-content{
+    display: flex;
+    flex-direction: row;
+    gap: 360px;
+    padding-top: 30px;
+}
+.sub-text{
+    display: flex;
+    flex-direction: column;
 }
