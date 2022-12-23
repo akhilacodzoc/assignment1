@@ -413,7 +413,6 @@ h5{
 }
 .sec-six-one{
     height: 680px;
-    /* border: solid yellow; */
     background-image: url("../images/sec-6_bg\(4\).png");
     background-size: cover;
 }
@@ -423,7 +422,6 @@ h5{
     align-items: flex-start;
     padding: 50px 0px;
     height: 533px;
-    /* border: solid; */
 } 
 .section-contactus{
     display: flex;
@@ -433,7 +431,6 @@ h5{
     position: absolute;
     width: 590px;
     height: 416px;
-    /* border: solid darkmagenta; */
 }
 .section-contactus h6{
     padding: 0px;
@@ -473,7 +470,6 @@ textarea{
     border: 1px solid #BDBDBD;
     border-radius: 5px;
     color: #BDBDBD;
-
 }
 .section-six .form-btn{
     margin-top: 0px;
@@ -483,7 +479,6 @@ textarea{
     margin: auto;
     width:75%;
 }
-
 .subcontainer .heading{
     text-align: start;
     font-size: 30px;
@@ -501,4 +496,95 @@ textarea{
 .sub-text{
     display: flex;
     flex-direction: column;
+}
+.footer{
+    height: 460px;
+    background-color:  #16697A;
+}
+.inner-footer{
+    height: 380px;
+    background-color: #252B42;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+    height: 40px;
+}
+.social-links ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.fa-square-facebook{
+    color: #335BF5;
+}
+.fa-instagram{
+    color: #E61F5A;
+}
+.fa-twitter{
+    color: #21A6DF;
+}
+.fa-youtube{
+    color: #E42F08;;
+}
+hr{
+    border: 1px solid #364067;
+}
+.mid-footer{
+    height: 235px;
+}
+.mid-footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 210px;
+    gap: 30px;
+}
+.mid-footer-col{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 200px;
+}
+.mid-footer-col-head{
+    padding: 10px 0px;
+    color: white;
+    font-size: 15px;
+    line-height: 50px;
+}
+.mid-footer-col-list a{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+.footer-inputs{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+}
+.mid-footer-col .footer-inputs input{
+    width: 120px;
+    height: 45px;
+    border-radius: 0px;
+}
+.footer-inputs .form-btn{
+    padding: 0px 0px;
+    width: 70px;
+    height: 49px;
+    margin-top: 0px;
+    border-radius: 0px;
+}
+.mid-footer-col h5{
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    padding: 0px 0px;
+}
+.outer-footer{
+    height: 70px;
 }
