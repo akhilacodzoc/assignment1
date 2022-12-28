@@ -79,23 +79,16 @@ nav{
     font-size: 16px;
 }
 
-/* -------section-one---- */
 .section-one{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* border: 5px solid magenta; */
-    display: flex;
     height: 750px;
-    /* gap: 120px; */
 }
 .section-one-one{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* padding: 0px; */
-    /* gap: 35px; */
-    /* width: 600px; */
     height: 418px;
 }
 
@@ -115,7 +108,6 @@ nav{
     margin-top: 35px; 
 }
 
-
 .button1{
     
     width: 354px;
@@ -123,7 +115,6 @@ nav{
     display: flex;
     gap: 10px;
     margin-top: 20px;
-
 }
 
 .bt-one{
@@ -224,10 +215,8 @@ select{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* padding: 0px; */
     gap: 30px;
-    height: 385px;
-    /* border: 2px solid; */
+    height: 415px;
     justify-content: space-between;
 }
 
@@ -238,12 +227,10 @@ select{
     padding: 0px;
     width: 328px;
     height: 385px;
-    /* border: 2px solid magenta; */
 }
 .card-head{
     width:330px;
     height: 390px;
-    /* border: 2px solid blue; */
     border-radius: 10px;
     background: #D9EDFF;
 }
@@ -267,10 +254,6 @@ select{
 }
 h6{
     width: 191px;
-    /* height: 48px; */
-    /* font-family: 'Montserrat'; */
-    /* font-style: normal; */
-    /* font-weight: 600; */
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.2px;
@@ -296,13 +279,11 @@ position: relative;
 }
 .heading{
     text-align: center;
-    /* width:637px; */
     font-size: 40px;
     font-size: 40px;
     line-height: 57px;
     letter-spacing: 0.2px;
     color: #252B42;
-    /* padding-left: 170px; */
 }
 .head .sub-heading{
     font-size: 14px;
@@ -375,7 +356,7 @@ position: relative;
 h5{
     padding-left: 100px;
 }
-/* ------section-five--- */
+
 .section-five{
     height:730px;
     background-color:#FFFFFF;
@@ -405,7 +386,7 @@ h5{
 .team-content i{
     color: #00A0C1;
 }
-/* -----section-six------ */
+
 .section-six{
     height: 823px;
     background: #FAFAFA;
@@ -444,7 +425,6 @@ h5{
     gap: 20px;
     width: 585px;
     height: 270px;
-    /* border: solid green; */
 }
 .form-inputs{
     display: flex;
@@ -564,7 +544,6 @@ hr{
     display: flex;
     flex-direction:row;
     align-items: center;
-
 }
 .mid-footer-col .footer-inputs input{
     width: 120px;
