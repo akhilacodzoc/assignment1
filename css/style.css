@@ -276,7 +276,6 @@ video{
     left: 200px;
 }
 .section-four{
-    height: 450px;
     background: #F3F3F3;
 }
 .section-four .heading{
@@ -358,7 +357,7 @@ h5{
     flex-direction: column;
     align-items: flex-start;
     padding: 50px 0px;
-    height: 533px;
+    /* height: 533px; */
 } 
 .section-contactus{
     display: flex;
@@ -401,6 +400,9 @@ textarea{
 .subcontainer{
     margin: auto;
     width:75%;
+}
+.subcontainer h1{
+    text-align: start;
 }
 .subcontainer h6{
     padding: 0px 0px;
@@ -450,7 +452,7 @@ hr{
 .mid-footer-row{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     padding: 30px 0px;
 }
 .mid-footer-col{
@@ -497,6 +499,7 @@ hr{
 }
 
 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .header{
@@ -541,7 +544,7 @@ hr{
         left: 29px;
     }
     .section-four{
-        height: 865px;
+        /* height: 865px; */
     }
     .head .sub-heading{
         font-size: 12px;
@@ -570,6 +573,7 @@ hr{
     .sub-text{
         align-items: center;
     }
+   
 
     .footer-top{
         flex-direction: column;
@@ -588,33 +592,51 @@ hr{
     }
 }
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .header{
+        height: 1020px;
+    }
+    .section-one{
+        flex-direction: column;
+    }
+    .mid-footer-row{
+        flex-wrap: wrap;
+    }
+    video{
+        width: 380px;
+        height: 240px;
+        bottom: 170px;
+        left: 29px;
+    }
+    .subcontainer {
+        margin: auto;
+        width: 100%;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (max-width: 1227px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .subcontainer {
+        margin: auto;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1122px) {
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    .card-row{
+        flex-direction: column;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-
